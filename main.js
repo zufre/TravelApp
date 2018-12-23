@@ -88,7 +88,12 @@ const executeSearch = () => {
 
   getVenues().then(venues => renderVenues(venues));
   getForecast().then(forecast => renderForecast(forecast));
-  $container.scrollIntoView();
+  $("html, body").animate(
+    {
+      scrollTop: $container.offset().top
+    },
+    1000
+  );
   return false;
 };
 
