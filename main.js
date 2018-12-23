@@ -85,6 +85,7 @@ const executeSearch = () => {
   $weatherDivs.forEach(day => day.empty());
   $destination.empty();
   $container.css("display", "block");
+  $container.scrollIntoView();
   getVenues().then(venues => renderVenues(venues));
   getForecast().then(forecast => renderForecast(forecast));
   return false;
