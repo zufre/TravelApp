@@ -47,7 +47,7 @@ p {
 
 form {
   margin-top: 50px;
-  height: 100px;
+  height: 140px;
 }
 
 footer {
@@ -144,7 +144,7 @@ footer {
 
 #city {
   width: 286px;
-  height: 46px;
+  height: 42px;
   border-radius: 4px;
   border: solid 2.5px #ffffff;
 
@@ -159,7 +159,7 @@ footer {
 
 #button {
   width: 140px;
-  height: 46px;
+  height: 51px;
   border-radius: 4px;
   background-color: #27b7c1;
   font-family: Source Sans Pro;
